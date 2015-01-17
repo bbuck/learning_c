@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -ledit -lm CMakeFiles/lispy.dir/main.c.o CMakeFiles/lispy.dir/mpc.c.o CMakeFiles/lispy.dir/parser.c.o  -o lispy  

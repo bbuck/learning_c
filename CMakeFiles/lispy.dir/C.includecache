@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/main.c
+stdio.h
+-
+stdlib.h
+-
+editline/readline.h
+-
+parser.h
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/parser.h
+mpc.h
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/mpc.h
+
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/mpc.c
+mpc.h
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/mpc.h
+
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/mpc.h
+stdlib.h
+-
+stdio.h
+-
+stdarg.h
+-
+string.h
+-
+math.h
+-
+errno.h
+-
+
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/parser.c
+parser.h
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/parser.h
+
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/parser.h
+mpc.h
+/Users/brandonbuck/Documents/Projects/languages/learn_c/src/mpc.h
+
